@@ -2,6 +2,10 @@
 set +x
 
 rm -rf tmp
+
+git config user.email "test@test.com"
+git config user.name "Test"
+
 git init tmp --quiet
 cd tmp
 
